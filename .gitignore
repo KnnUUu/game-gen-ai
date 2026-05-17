@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+outputs/
+.DS_Store
+.python-version
+references/info.md
