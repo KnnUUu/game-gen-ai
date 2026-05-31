@@ -96,7 +96,7 @@ uv run python -m src.main "a wizard" --steps 30 --guidance 7.5 --width 768 --hei
 
 # Image-to-image — pass --init-image and (optionally) --strength
 uv run python -m src.main "a castle on a hill at sunset" \
-  --init-image some_init.png --strength 0.7 --width 512 --height 768
+  --init-image references/sample_input.jpeg --strength 0.7 --width 512 --height 768
 ```
 
 Output goes to `outputs/{timestamp}.png` with a sibling `.json` recording
